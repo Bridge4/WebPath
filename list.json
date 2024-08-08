@@ -1,0 +1,40 @@
+{
+"NavBar" : { 
+    "_Section1" : {
+        "_SubSection1a" : {
+            "pages" : ["./page1","./page2","./page3","./page4","./page5"],
+            "components" : []
+        },
+        "_SubSection1b" : {
+            "pages" : ["./page6","./page7","./page8","./page9","./page2"],
+            "components" : []
+        }
+    },
+    "_Section2" : {
+        "_SubSection2a" : {
+            "pages" : ["./page5","./page2","./page7","./page4","./page12"],
+            "components" : []
+        },
+        "_SubSection2b" : {
+            "pages" : ["./page68","./page12","./page8","./page13"],
+            "components" : []
+        }
+    }
+},
+
+"./page1" : {
+    "pages" : ["./page13","./page2"],
+    "components" : []
+},
+
+"./page2" : {
+    "pages" : ["./page1", "./page68", "./page3", "./page4"],
+    "components" : ["NavBar"]
+},
+
+"./page3" : {
+    "pages" : ["./page5", "./page6", "./page7"],
+    "components" : ["NavBar"]
+}
+
+}
